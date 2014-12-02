@@ -3,5 +3,5 @@ MAINTAINER Stefan Baur
 
 ADD scripts scripts
 
-RUN chmod +x /scripts/*; /scripts/setup; /scripts/cleanup -f bash sh dash cat tty mktemp rm grep groups ls du apache2 apache2ctl
+RUN chmod +x /scripts/*; /scripts/setup; /scripts/cleanup -f bash sh dash cat tty mktemp rm grep groups ls du id apache2 apache2ctl 
 

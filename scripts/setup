@@ -3,5 +3,5 @@
 apt-get update
 apt-get -y upgrade
 
-apt-get -y install apache2 php5
+apt-get -y install apache2 php5 php5-mysql php5-gd php5-curl php5-imagick php5-imap php-pear
 

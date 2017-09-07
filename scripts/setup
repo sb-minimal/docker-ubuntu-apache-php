@@ -3,7 +3,7 @@
 apt-get update
 apt-get -y upgrade
 
-apt-get -y install apache2 php php-mysql php-gd php-curl php-imagick php-imap php-pear ssmtp libapache2-mod-php php-mbstring graphicsmagick-imagemagick-compat paxctl
+apt-get -y install apache2 php php-mysql php-gd php-curl php-imagick php-imap php-pear php-zip php-soap ssmtp libapache2-mod-php php-mbstring graphicsmagick-imagemagick-compat paxctl
 
 mkdir -p /var/lock/apache2 /var/run/apache2
 
